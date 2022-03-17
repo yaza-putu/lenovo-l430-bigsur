@@ -1,12 +1,12 @@
 # lenovo-thinkpad-l430 
-## Upgrade from Catalina 10.15.7 to Bigsur 11.6.3
+## Upgrade from Catalina 10.15.7 to Bigsur 11.6.5
 ![lenovo thinkpad l430](https://res.cloudinary.com/dk0053zbe/image/upload/v1643354951/bigsur_rf2s10.png)
 
 ## spesifikasi :
 - Bootloader Opencore 0.6.3
 - processor core i3 3120M (Ivy Bridge)
 - vga intel hd 4000
-- audio alc269 layout-id 28
+- audio alc269 layout-id 29
 - Ethernet RTL8168E-VL
 - Intel(R) Centrino(R) Advanced-N 6205
 - Intel 7 Series Chipset
@@ -18,7 +18,7 @@
 - Sound Alc269
 - Touchpad
 - etc
-- Sleep
+- Sleep (Not perfect)
 - shotdown
 - Restart
 - Must be set SMBIOS MacBookPro11,1 to be install BIGSUR
@@ -48,6 +48,8 @@
 - USBMap                : Generated (CUSTOM)
 - AirportItlwm.kext     : V2.1.0 (STABLE)
 
+## Change Log
+- 17 Maret 2022 , change SMBIOS MacBookPro11.1 to MacBookPro10.2 to fix power management (old SSDT PM generated from catalina) issue CORE REQ always high for Ivy Brige processor in BIGSUR
+
 ## Issue
-- Wrong sensor reader in audio LED when wakeup sleep 
-- Audio muted when wakeup sleep 
+- sleep not perfect

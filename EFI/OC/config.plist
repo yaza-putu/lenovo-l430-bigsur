@@ -8,14 +8,6 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-CPU-PM.aml</string>
-				<key>Path</key>
-				<string>SSDT-CPU-PM.aml</string>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>SSDT-EC.aml</string>
 				<key>Path</key>
 				<string>SSDT-EC.aml</string>
@@ -35,6 +27,14 @@
 				<string>SSDT-IMEI.aml</string>
 				<key>Path</key>
 				<string>SSDT-IMEI.aml</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-PM.aml</string>
+				<key>Path</key>
+				<string>SSDT-PM.aml</string>
 				<key>Enabled</key>
 				<true/>
 			</dict>
@@ -1070,7 +1070,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 debug=0x100 alcid=29 swd_panic=1</string>
+				<string>keepsyms=1 debug=0x100 alcid=29 swd_panic=1 -no_compat_check</string>
 				<key>csr-active-config</key>
 				<data>ZwgAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1137,7 +1137,7 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02410501QXFH31JA</string>
+			<string>C02303102QXF16PCB</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>SystemMemoryStatus</key>
@@ -1147,11 +1147,11 @@
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
-			<string>MacBookPro11,1</string>
+			<string>MacBookPro10,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02MD9Y7FH00</string>
+			<string>C02K4EZLDR53</string>
 			<key>SystemUUID</key>
-			<string>7A4CD7A5-C935-4705-ADFA-04ADE37E9567</string>
+			<string>92F16DB7-0818-4A02-B7A5-803B5ACF0F63</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
