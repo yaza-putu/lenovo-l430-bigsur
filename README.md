@@ -21,7 +21,7 @@
 - Sleep (Not perfect)
 - shotdown
 - Restart
-- Must be set SMBIOS MacBookPro11,1 to be install BIGSUR and SET to MacBookPro10.2 with boot args no_compat_check to fixing Power management Issue in ivy bridge bigsur (SSDT-PM.aml generated from catalina)
+- Must be set SMBIOS MacBookPro11,1 to be install BIGSUR (on instalations) and SET to MacBookPro10.2 with boot args no_compat_check (POST Istall) to fixing Power management Issue in ivy bridge bigsur (SSDT-PM.aml generated from catalina)
 - Brightness, Fn + p (brightness up) and Fn + k (brightness down)
 - Display Port
 - WLAN Intel(R) Centrino(R) Advanced-N 6205
